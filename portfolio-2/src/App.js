@@ -11,14 +11,13 @@ function App() {
   useEffect(() =>{
     Webfont.load({
       google: {
-        families: ['Be Vietnam Pro','Kanit','Droid Sans', 'Chilanka']
+        families: ['Fugaz One','Lobster','League Spartan','Cutive Mono', 'Be Vietnam Pro', 'Racing Sans One', 'Bowlby One SC', 'Noto Sans Hebrew', 'Farro']
       }
     });
   }, []);
   return (
     <div className="App">
       <Navi></Navi>
-
       <Hero></Hero>
     </div>
   );

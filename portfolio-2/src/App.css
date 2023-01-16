@@ -1,9 +1,12 @@
-
+.App {
+  background-color: rgb(250, 248, 245);
+}
 
 .Navi {
-  height: 200px;
-  background-color: #2d4e66 !important;
-  color: #DBCFAB;
+  height: 90px;
+  font-style: bold;
+  font-size: 15px;
+  color: #890000;
 }
 
 .title {
@@ -14,4 +17,22 @@
 .Name {
   color: #000;
   font-size: px;
+}
+
+
+
+img { 
+  margin: 25%;
+  display: inline-flex;
+}
+.image h1 {
+  margin: 5%;
+  justify-content: center;
+  font-size: 125px;
+  color: #E1AA05;
+}
+
+.image {
+  margin: 5em;
+  object-position: right;
 }
