@@ -1,18 +1,62 @@
+
 .App {
   background-color: rgb(250, 248, 245);
 }
 
 .Navi {
+  background-color: #425c63;
   height: 90px;
   font-style: bold;
   font-size: 15px;
-  color: #890000;
+  color: #989C63;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title {
-  font-size: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  font-size: 60px;
   font-style: bold;
 }
+
+.NavText {
+  display: flex;
+}
+
+.NavText :hover {
+  color: #989C63 !important;
+  transform: scale(1.25);
+
+}
+
+
+
+.NavIcons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.NavIcons :hover {
+  transform: scale(1.15);
+  
+}
+
+.NavList Link {
+  text-decoration: none;
+  font-size: 60px;
+  color: #989C63;
+}
+
+.nav-options {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-end;
+}
+
 
 .Name {
   color: #000;
@@ -21,18 +65,35 @@
 
 
 
-img { 
-  margin: 25%;
-  display: inline-flex;
+.headshot { 
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+  border: #425c63, 10px;
+  
 }
+
+
 .image h1 {
   margin: 5%;
   justify-content: center;
-  font-size: 125px;
-  color: #E1AA05;
+  font-size: 100px;
+  color: #425c63;
+}
+.image p {
+  font-size: 25px;
+  color: #989C63;
 }
 
 .image {
   margin: 5em;
   object-position: right;
+}
+
+.GradText {
+  color: #989C63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem;
 }
