@@ -8,19 +8,20 @@ function About () {
   return (
     <div>
         <Container>
+          <div>
           <Row>
             <Col sm={4}>
-              <div className="GradText">
+              <div className="GradTextTitle">
               <h1 style={{fontFamily: 'Anton'}}>
-                Graduate from edX's Full Stack Web Developement Coding Bootcamp
-                With a Certificate in MERN Stack Web Developement
+                Certified Full Stack Web Developer
               </h1>
               </div>
-            </Col>
-            <Col sm={8}>
-
+              <p style={{fontFamily: 'Anton'}}>
+                Completed a MERN Stack Coding bootcamp offered by EdX through the University of Texas at San Antonio
+              </p>
             </Col>
           </Row>
+          </div>
         </Container>
       
     </div>

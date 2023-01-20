@@ -4,11 +4,11 @@
 }
 
 .Navi {
-  background-color: #425c63;
+  /* background-color: #DA7A37; */
   height: 90px;
   font-style: bold;
   font-size: 15px;
-  color: #989C63;
+  color: #3AA19D;
   display: flex;
   justify-content: space-between;
 }
@@ -17,8 +17,7 @@
   display: flex;
   justify-content: start;
   align-items: flex-start;
-  font-size: 60px;
-  font-style: bold;
+  font-size: 55px;
 }
 
 .NavText {
@@ -26,7 +25,7 @@
 }
 
 .NavText :hover {
-  color: #989C63 !important;
+  color: #e8e3c3 !important;
   transform: scale(1.25);
 
 }
@@ -69,8 +68,11 @@
   display: flex;
   justify-content:space-between;
   align-items: flex-start;
-  border: #425c63, 10px;
-  
+}
+
+.headshot img {
+  box-shadow: 4.5px 4.5px #DA3939;
+  border: white solid 7.5px;
 }
 
 
@@ -78,11 +80,11 @@
   margin: 5%;
   justify-content: center;
   font-size: 100px;
-  color: #425c63;
+  color: #DA3939;
 }
 .image p {
   font-size: 25px;
-  color: #989C63;
+  color: #DA3939;
 }
 
 .image {
@@ -91,9 +93,29 @@
 }
 
 .GradText {
-  color: #989C63;
+  margin: 5rem;
+  display: flex;
+  gap: .5rem ;
+}
+
+.GradTextTitle {
+  color: #DA3939;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 2.5rem;
+  padding-top: 75px;
+}
+.GradTextTitle h1 {
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.GradText p {
+  
+}
+
+hr.about {
+  border: #989C63 100px;
 }

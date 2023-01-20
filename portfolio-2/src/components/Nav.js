@@ -33,7 +33,7 @@ function Navi() {
                           src={LinkedInLogo}
                           style={{ height: "30px" }}
                           alt="LinkedIn Logo"
-                          href="https://www.linkedin.com/in/tom-luna-786a7b238/"
+                          href="https://www.linkedin.com/in/tom-luna/"
                         ></img>
                       </a>
                       <a
@@ -52,7 +52,7 @@ function Navi() {
                     <Nav.Link href="/"></Nav.Link>
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/about">About</Nav.Link>
-                    <Nav.Link href="/projects">Projects</Nav.Link>
+                    <Nav.Link href="/contact">Contact</Nav.Link>
                     </div>
                   </Nav>
                 </Col>
