@@ -8,18 +8,18 @@ import {React, useEffect } from 'react';
 import Webfont from 'webfontloader'
 import { Route, Routes } from 'react-router-dom'
 import About from './components/About';
-import Projects from './components/Projects';
+import Projects from './components/Contact';
 
 function App() {
   useEffect(() =>{
     Webfont.load({
       google: {
-        families: ['Anton','Contrail One','Lobster','League Spartan','Cutive Mono', 'Be Vietnam Pro', 'Racing Sans One', 'Bowlby One SC', 'Noto Sans Hebrew', 'Farro', 'Shrikhand']
+        families: ['Anton','Contrail One','Lobster','League Spartan','Cutive Mono', 'Be Vietnam Pro', 'Racing Sans One', 'Bowlby One SC', 'Noto Sans Hebrew', 'Farro', 'Shrikhand', 'PT Mono', 'Lexend Deca']
       }
     });
   }, []);
   return (
-    <>
+    <div className='wholeApp'>
       <Navi/>
       <div className='container'>
         <Routes>
@@ -28,7 +28,7 @@ function App() {
         <Route path='/contact' element={<Projects/>}/>
         </Routes>
       </div>
-    </>
+    </div>
   );
 }
 
