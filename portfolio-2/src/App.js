@@ -8,7 +8,8 @@ import {React, useEffect } from 'react';
 import Webfont from 'webfontloader'
 import { Route, Routes } from 'react-router-dom'
 import About from './components/About';
-import Projects from './components/Contact';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() =>{
@@ -25,8 +26,14 @@ function App() {
         <Routes>
         <Route path='/' element={<Hero/>}/>
         <Route path='/about' element={<About/>}/>
-        <Route path='/contact' element={<Projects/>}/>
+        {/* <Route path='/contact' element={<Projects/>}/> */}
         </Routes>
+      </div>
+      <div>
+        <Projects/>
+      </div>
+      <div className='footer'>
+        <Footer/>
       </div>
     </div>
   );

@@ -30,26 +30,16 @@
 .NavText :hover {
   color: #00a651 !important;
   transform: scale(1.25);
-
-}
-
-
-
-.NavIcons {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
   gap: 1.5rem;
+
 }
 
-.NavIcons :hover {
-  transform: scale(1.15);
-  
-}
+
+
 
 .NavList Link {
   text-decoration: none;
-  font-size: 60px;
+  font-size: 90px;
   color: #989C63;
 }
 
@@ -124,18 +114,16 @@ hr.about {
 }
 
 .projects {
+
+  padding-bottom: 2.5rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
-  justify-content: space-between;
-  margin: 2.5rem;
-  padding: 5rem;
+  gap: 10rem;
+  justify-content: center;
 }
 
-.projImage :hover {
-  transform: scale(1.005);
-  border: solid 3px #005BAB;
-  border-radius: .5rem;
+.projImage {
+  border: #000 2px solid;
 }
 
 .projTitle {
@@ -165,4 +153,37 @@ hr.about {
 .projTechnology {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
+
+.ContactMe {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ThankYou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterIcons {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.FooterIcons :hover {
+  transform: scale(1.15);
+  
+}
+
+
+.footer {
+  background-color: #86A7C7;
+  padding: 1.5rem;
+}
+
+
+
