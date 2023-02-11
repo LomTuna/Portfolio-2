@@ -27,6 +27,7 @@ function Navi() {
                     <Nav.Link href="/"></Nav.Link>
                     <Nav.Link style={{fontSize: '30px'}} href="/">Home</Nav.Link>
                     <Nav.Link style={{fontSize: '30px'}} href="/about">About</Nav.Link>
+                    <Nav.Link style={{fontSize: '30px'}} href="/projects">Projects</Nav.Link>
                     {/* <Nav.Link href="/contact">Contact</Nav.Link> */}
                     </div>
                   </Nav>

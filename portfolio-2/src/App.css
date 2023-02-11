@@ -51,7 +51,6 @@
 
 
 .Name {
-  color: #000;
   font-size: px;
 }
 
@@ -92,12 +91,25 @@
 }
 
 .GradTextTitle {
-  color: #ee1c25;
+  color: #005BAB;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2.5rem;
+  margin: 1.5rem;
   padding-top: 75px;
+}
+.Title {
+  color: #005BAB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+  padding-top: 75px;
+}
+.Title h1 {
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 .GradTextTitle h1 {
   font-size: 3rem;
@@ -106,7 +118,7 @@
 }
 
 .GradText p {
-  
+  color: #005BAB;
 }
 
 hr.about {

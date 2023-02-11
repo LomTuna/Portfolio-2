@@ -15,7 +15,7 @@ function App() {
   useEffect(() =>{
     Webfont.load({
       google: {
-        families: ['Anton','Contrail One','Lobster','League Spartan','Cutive Mono', 'Be Vietnam Pro', 'Racing Sans One', 'Bowlby One SC', 'Noto Sans Hebrew', 'Farro', 'Shrikhand', 'PT Mono', 'Lexend Deca']
+        families: ['Anton','Contrail One','Lobster','League Spartan','Cutive Mono', 'Be Vietnam Pro', 'Racing Sans One', 'Bowlby One SC', 'Noto Sans Hebrew', 'Farro', 'Shrikhand', 'PT Mono', 'Lexend Deca', 'Ramabhadra']
       }
     });
   }, []);
@@ -26,11 +26,11 @@ function App() {
         <Routes>
         <Route path='/' element={<Hero/>}/>
         <Route path='/about' element={<About/>}/>
-        {/* <Route path='/contact' element={<Projects/>}/> */}
+        <Route path='/projects' element={<Projects/>}/>
         </Routes>
       </div>
       <div>
-        <Projects/>
+       {/* component that adds information about me, cute-style */}
       </div>
       <div className='footer'>
         <Footer/>
