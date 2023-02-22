@@ -1,9 +1,6 @@
 
 .wholeApp {
-  background-color: #ffffff;
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  background-color: #54514D;
 }
 
 .Navi {
@@ -11,7 +8,7 @@
   height: 90px;
   font-style: bold;
   font-size: 15px;
-  color: #005BAB;
+  color: #EFB90A;
   display: flex;
   justify-content: space-between;
 }
@@ -63,8 +60,8 @@
 }
 
 .headshot img {
-  box-shadow: 4.5px 4.5px #ee1c25;
-  border: white solid 7.5px;
+  box-shadow: 4.5px 4.5px #EFB90A;
+  border: #54514D, 7.5px;
 }
 
 
@@ -72,11 +69,11 @@
   margin: 5%;
   justify-content: center;
   font-size: 100px;
-  color: #ee1c25;
+  color: #D6D4D2;
 }
 .image p {
   font-size: 25px;
-  color: #ee1c25;
+  color: #787776;
 }
 
 .image {
@@ -193,8 +190,8 @@ hr.about {
 
 
 .footer {
-  background-color: #86A7C7;
-  padding: 1.5rem;
+  background-color: #54514D;
+  margin: 0%;
 }
 
 

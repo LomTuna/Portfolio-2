@@ -15,12 +15,11 @@ function About () {
               <h1 style={{fontFamily: 'Ramabhadra', color: '#ee1c25'}}>
                 <b>Certified Full Stack Web Developer</b>
               </h1>
+              </div>
+              </Col>
               <p style={{fontFamily: 'Noto Sans Hebrew', fontSize: '20px', color: '#005BAB'}}>
                 Completed a MERN Stack Coding bootcamp offered by EdX through the University of Texas at San Antonio
               </p>
-              </div>
-              </Col>
-
               <Col md={6}>
               <div className="GradTextTitle">
               <h1 style={{fontFamily: 'Ramabhadra', color: '#ee1c25'}}>

@@ -46,7 +46,7 @@ function Projects () {
                     </div>
                     <div className="projDetails">
                     <Card.Text style={{fontFamily: 'League Spartan', fontSize: '20px', color: '#000'}}>
-                      A single page application that helps the User find National Parks in whatever state of the U.S. 
+                      A single page application that helps the User find National Parks in any state of the U.S. 
                       It utilizes an API derived from the National Parks Association - which provides Images and accomodations for each National Park/Landmark.
                     </Card.Text>
                     </div>
