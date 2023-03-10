@@ -16,8 +16,8 @@ function Footer () {
         <Row className="align-items-baseline">
           <Col lg={4}>
             <div className="ContactMe">
-            <h1 style={{fontFamily: 'Racing Sans One', color: '#005BAB', fontSize: '50px'}} >Contact Me:</h1>
-              <p style={{fontFamily: 'League Spartan', color: '#ee1c25', fontSize: '25px'}} >lomtuna15@gmail.com</p>
+            <h1 style={{fontFamily: 'Racing Sans One', color: '#EFB90A', fontSize: '50px'}} >Contact Me:</h1>
+              <p style={{fontFamily: 'League Spartan', color: '#2E2E2E', fontSize: '25px'}} >lomtuna15@gmail.com</p>
               </div>
           </Col>
           <Col lg={4}>

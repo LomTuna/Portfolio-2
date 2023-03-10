@@ -15,6 +15,10 @@
   justify-content: space-between;
 }
 
+.Hero {
+  padding-bottom: 10rem;
+}
+
 .title {
   display: flex;
   justify-content: start;
