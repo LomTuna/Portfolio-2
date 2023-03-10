@@ -6,30 +6,31 @@ import Container from "react-bootstrap/esm/Container";
 function About () {
 
   return (
-    <div>
+    <div className="About">
         <Container>
-          <Row>
-            <Col md={6}>
-            <div className="Title">
-
-              <h1 style={{fontFamily: 'Ramabhadra', color: '#ee1c25'}}>
+          <Row xl={12}>
+            <Col lg={4}>
+              
+              <h1 style={{fontFamily: 'Ramabhadra', color: '#D6D4D2', fontFamily: '30px'}}>
                 <b>Certified Full Stack Web Developer</b>
               </h1>
-              </div>
+              <p style={{fontFamily: 'Noto Sans Hebrew', fontSize: '20px', color: '#EFB90A'}}>
+                Educated in MERN Fullstack Web Development, I enjoy the ability to create web applications from both sides (Front-end and Back-end).
+                </p>
+                <hr style={{color: '#EFB90A'}}/>
+                <p style={{fontFamily: 'Noto Sans Hebrew', fontSize: '20px', color: '#EFB90A'}}>
+                 I'm obsessed with visual manipulation, and creating a story with a product.
+              </p>
               </Col>
-              <p style={{fontFamily: 'Noto Sans Hebrew', fontSize: '20px', color: '#005BAB'}}>
-                Completed a MERN Stack Coding bootcamp offered by EdX through the University of Texas at San Antonio
-              </p>
-              <Col md={6}>
-              <div className="GradTextTitle">
-              <h1 style={{fontFamily: 'Ramabhadra', color: '#ee1c25'}}>
-                <b>What I Learned:</b>
+              <Col lg={4}></Col>
+              <Col lg={4}>
+              <h1 style={{fontFamily: 'Ramabhadra', color: '#D6D4D2', fontSize: '50px'}}>
+                <b>Experience</b>
               </h1>
-              </div>
-              <p style={{fontFamily: 'Noto Sans Hebrew', fontSize: '20px', color: '#005BAB'}}>
-                <b>From the ground, up</b> I was taught the basics of HTML and CSS, grinding my way through single-page applications. I learned Javascript as the primary programming language. 
+              
+              <p style={{fontFamily: 'Noto Sans Hebrew', fontSize: '35px', color: '#EFB90A'}}>
+                MongoDB Express JS REACT Node.JS MySQL GraphQL Vue.JS 
               </p>
-            
             </Col>
             </Row>
         </Container>

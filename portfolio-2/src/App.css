@@ -1,4 +1,6 @@
-
+* {
+  background-color: #54514D
+}
 .wholeApp {
   background-color: #54514D;
 }
@@ -22,6 +24,8 @@
 
 .NavText {
   display: flex;
+  background: none;
+  gap: 1.5rem;
 }
 
 .NavText :hover {
@@ -41,6 +45,7 @@
 }
 
 .nav-options {
+  background: none;
  display: flex;
  justify-content: space-between;
  align-items: flex-end;
@@ -95,20 +100,15 @@
   margin: 1.5rem;
   padding-top: 75px;
 }
-.Title {
+.About {
   color: #005BAB;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1.5rem;
-  padding-top: 75px;
+  margin: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
 }
-.Title h1 {
-  font-size: 3rem;
-  display: flex;
-  justify-content: space-evenly;
-}
-.GradTextTitle h1 {
+.About h1 {
+
   font-size: 3rem;
   display: flex;
   justify-content: space-evenly;
