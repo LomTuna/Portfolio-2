@@ -127,12 +127,12 @@ hr.about {
 }
 
 .projects {
-
-  padding-bottom: 2.5rem;
+  padding: 2.5rem;
   display: flex;
   flex-wrap: wrap;
   gap: 10rem;
   justify-content: center;
+  grid-row: inherit;;
 }
 
 .projImage {
@@ -170,9 +170,20 @@ hr.about {
 }
 
 .ContactMe {
+  padding: 1rem;
+  margin: 0%;
+  vertical-align: baseline;
+  gap: 1rem;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.ContactMe p {
+  padding: 1rem;
+  margin: 0%;
+  vertical-align: baseline;
 }
 
 .ThankYou {
@@ -185,6 +196,7 @@ hr.about {
   display: flex;
   justify-content: center;
   gap: 5rem;
+  padding: 2rem;
 }
 
 .FooterIcons :hover {

@@ -16,13 +16,14 @@ function Footer () {
         <Row className="align-items-baseline">
           <Col lg={4}>
             <div className="ContactMe">
-            <h1 style={{fontFamily: 'Racing Sans One', color: '#EFB90A', fontSize: '50px'}} >Contact Me:</h1>
-              <p style={{fontFamily: 'League Spartan', color: '#2E2E2E', fontSize: '25px'}} >lomtuna15@gmail.com</p>
+            <h1 style={{fontFamily: 'Racing Sans One', color: '#EFB90A', fontSize: '25px'}} >Contact Me:</h1>
+              <p style={{fontFamily: 'League Spartan', color: '#2E2E2E', fontSize: '20px'}} >lomtuna15@gmail.com</p>
               </div>
+              
           </Col>
           <Col lg={4}>
             <div className="ThankYou">
-              <p style={{fontFamily: 'League Spartan', color: 'white', fontSize: '30px'}} >Thanks for Visiting!</p>
+              <p style={{fontFamily: 'League Spartan', color: 'white', fontSize: '20px'}} >Thanks for Visiting!</p>
               </div>
           </Col>
         <Col lg={4}>
@@ -34,7 +35,7 @@ function Footer () {
                       >
                         <img
                           src={LinkedInLogo}
-                          style={{ height: "50px" }}
+                          style={{ height: "40px" }}
                           alt="LinkedIn Logo"
                           href="https://www.linkedin.com/in/tom-luna/"
                         ></img>
@@ -46,7 +47,7 @@ function Footer () {
                       >
                         <img
                           src={GitHubLogo}
-                          style={{ height: "50px" }}
+                          style={{ height: "40px" }}
                           alt="GitHub Logo"
                         ></img>
                       </a>
