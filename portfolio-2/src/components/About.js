@@ -6,12 +6,13 @@ import Container from "react-bootstrap/esm/Container";
 function About () {
 
   return (
+    <div>
     <div className="About">
         <Container>
           <Row xl={12}>
             <Col lg={4}>
               
-              <h1 style={{fontFamily: 'Ramabhadra', color: '#D6D4D2', fontFamily: '30px'}}>
+              <h1 style={{fontFamily: 'Ramabhadra', color: '#D6D4D2', fontSize: '30px'}}>
                 <b>Certified Full Stack Web Developer</b>
               </h1>
               <p style={{fontFamily: 'Noto Sans Hebrew', fontSize: '20px', color: '#EFB90A'}}>
@@ -28,13 +29,19 @@ function About () {
                 <b>Experience</b>
               </h1>
               
-              <p style={{fontFamily: 'Noto Sans Hebrew', fontSize: '35px', color: '#EFB90A'}}>
-                MongoDB Express JS REACT Node.JS MySQL GraphQL Vue.JS 
+              <p className="expList" style={{fontFamily: 'Noto Sans Hebrew', fontSize: '20px', color: '#EFB90A'}}>
+                <ul>MongoDB</ul>
+                <ul>Express JS</ul>
+                <ul>REACT</ul>
+                <ul>MySQL</ul>
+                <ul>GraphQL</ul>
+                <ul>Vue.JS</ul>
+                
               </p>
             </Col>
             </Row>
         </Container>
-      
+    </div>
     </div>
 
   )

@@ -107,8 +107,8 @@
 .About {
   color: #005BAB;
   display: flex;
-  margin: 10rem;
-  padding-top: 2rem;
+  margin: 7rem;
+  padding-top: 1rem;
   padding-bottom: 10rem;
 }
 .About h1 {
@@ -118,12 +118,30 @@
   justify-content: space-evenly;
 }
 
+.aboutCert h1 {
+  display: flex;
+  text-align: center;
+}
+
+
+
 .GradText p {
   color: #005BAB;
 }
 
 hr.about {
   border: #989C63 100px;
+}
+
+.expList {
+  text-align: center;
+  
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  
 }
 
 .projects {
