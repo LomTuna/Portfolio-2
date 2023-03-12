@@ -27,9 +27,19 @@
 }
 
 .NavText {
+  color: #D6D4D2;
   display: flex;
   background: none;
   gap: 1.5rem;
+}
+
+.NavText a {
+  color: #EFB90A ;
+}
+
+a:link, a:visited, a:hover,  a:active {
+  text-decoration: none;
+
 }
 
 .NavText :hover {

@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
 import LinkedInLogo from "/Users/tomluna/Desktop/Portfolio2/Portfolio-2/portfolio-2/src/assets/291709_logo_linked in_social network_social_social media_icon.png";
 import GitHubLogo from "/Users/tomluna/Desktop/Portfolio2/Portfolio-2/portfolio-2/src/assets/291716_github_logo_social network_social_icon.png";
+import Hero from "./Hero";
 
 function Navi() {
   const path = window.location.pathname;
@@ -26,7 +27,8 @@ function Navi() {
                     <div className="NavText">
                     <Nav.Link href="/"></Nav.Link>
                     <Nav.Link style={{fontSize: '30px'}} href="/">Home</Nav.Link>
-                    <Nav.Link style={{fontSize: '30px'}} href="/about">About</Nav.Link>
+                    <Nav.Link style={{fontSize: '30px'}} href="/about">About
+                    </Nav.Link>
                     <Nav.Link style={{fontSize: '30px'}} href="/projects">Projects</Nav.Link>
                     {/* <Nav.Link href="/contact">Contact</Nav.Link> */}
                     </div>
