@@ -24,13 +24,31 @@ function Navi() {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Col sm={4}>
                   <Nav style={{ fontFamily: "Shrikhand" }} className="NavList">
-                    <div className="NavText">
-                    <Nav.Link href="/"></Nav.Link>
-                    <Nav.Link style={{fontSize: '30px'}} href="/">Home</Nav.Link>
-                    <Nav.Link style={{fontSize: '30px'}} href="/about">About
-                    </Nav.Link>
-                    <Nav.Link style={{fontSize: '30px'}} href="/projects">Projects</Nav.Link>
-                    {/* <Nav.Link href="/contact">Contact</Nav.Link> */}
+                  <div className="FooterIcons">
+                      <a
+                        href="https://www.linkedin.com/in/tom-luna-786a7b238/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img
+                          src={LinkedInLogo}
+                          style={{ height: "40px" }}
+                          alt="LinkedIn Logo"
+                          href="https://www.linkedin.com/in/tom-luna/"
+                        ></img>
+                      </a>
+                      <a
+                        href="https://github.com/LomTuna"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img
+                          src={GitHubLogo}
+                          style={{ height: "40px" }}
+                          alt="GitHub Logo"
+                        ></img>
+                      </a>
+                      
                     </div>
                   </Nav>
                 </Col>

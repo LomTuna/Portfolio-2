@@ -14,46 +14,18 @@ function Footer () {
       <div className="footer"></div>
       <Container>
         <Row className="align-items-baseline">
-          <Col lg={4}>
+          <Col lg={6}>
             <div className="ContactMe">
             <h1 style={{fontFamily: 'Racing Sans One', color: '#EFB90A', fontSize: '25px'}} >Contact Me:</h1>
               <p style={{fontFamily: 'League Spartan', color: '#2E2E2E', fontSize: '20px'}} >lomtuna15@gmail.com</p>
               </div>
               
           </Col>
-          <Col lg={4}>
+          <Col lg={6}>
             <div className="ThankYou">
               <p style={{fontFamily: 'League Spartan', color: 'white', fontSize: '20px'}} >Thanks for Visiting!</p>
               </div>
           </Col>
-        <Col lg={4}>
-        <div className="FooterIcons">
-                      <a
-                        href="https://www.linkedin.com/in/tom-luna-786a7b238/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={LinkedInLogo}
-                          style={{ height: "40px" }}
-                          alt="LinkedIn Logo"
-                          href="https://www.linkedin.com/in/tom-luna/"
-                        ></img>
-                      </a>
-                      <a
-                        href="https://github.com/LomTuna"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={GitHubLogo}
-                          style={{ height: "40px" }}
-                          alt="GitHub Logo"
-                        ></img>
-                      </a>
-                      
-                    </div>
-        </Col>
         </Row>
       </Container>
     </div>

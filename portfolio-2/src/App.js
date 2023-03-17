@@ -25,13 +25,15 @@ function App() {
       <div className='container'>
         <Routes>
         <Route path='/' element={<Hero/>}/>
-        <Route path='/about' element={<About/>}/>
         <Route path='/projects' element={<Projects/>}/>
         </Routes>
       </div>
       <div>
-       {/* component that adds information about me, cute-style */}
-      </div>
+       <About/>
+       </div>
+       <div>
+         <Projects/>
+       </div>
       <div className='footer'>
         <Footer/>
       </div>
