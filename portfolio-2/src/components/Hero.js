@@ -25,7 +25,7 @@ function Hero() {
                   <p style={{ fontFamily: "Contrail One" }}>
                     Creating projects with eye-catching design, optimized
                     performance, and user satisfaction. Check out some of my
-                    projects <a href="/projects">here!</a>
+                    projects <a className="projectLink" href="/projects">here!</a>
                   </p>
                 </Col>
                 <Col lg={4}>

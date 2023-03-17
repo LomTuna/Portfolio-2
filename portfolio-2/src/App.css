@@ -1,5 +1,5 @@
 * {
-  background-color: #54514D
+  
 }
 .wholeApp {
   background-color: #54514D;
@@ -114,13 +114,21 @@ a:link, a:visited, a:hover,  a:active {
   margin: 1.5rem;
   padding-top: 75px;
 }
+
+.About :before {
+  
+}
+
 .About {
+  
+  background: #787776;
   color: #005BAB;
   display: flex;
-  margin: 7rem;
-  padding-top: 1rem;
+  margin: 0rem;
+  padding-top: 5rem;
   padding-bottom: 10rem;
 }
+
 .About h1 {
 
   font-size: 3rem;
@@ -155,7 +163,7 @@ ul {
 }
 
 .projects {
-  padding: 2.5rem;
+  padding: 7rem;
   display: flex;
   flex-wrap: wrap;
   gap: 10rem;
@@ -194,7 +202,13 @@ ul {
 .projTechnology {
   display: flex;
   justify-content: center;
+  text-align: center;
   flex-wrap: wrap;
+}
+
+.projectLink {
+  color: #00a651;
+  text-decoration: none;
 }
 
 .ContactMe {

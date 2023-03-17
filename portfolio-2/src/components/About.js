@@ -10,7 +10,7 @@ function About () {
     <div className="About">
         <Container>
           <Row xl={12}>
-            <Col lg={4}>
+            <Col lg={6}>
               
               <h1 style={{fontFamily: 'Ramabhadra', color: '#D6D4D2', fontSize: '30px'}}>
                 <b>Certified Full Stack Web Developer</b>
@@ -23,8 +23,8 @@ function About () {
                  I'm obsessed with visual manipulation, and creating a story with a product.
               </p>
               </Col>
-              <Col lg={4}></Col>
-              <Col lg={4}>
+              
+              <Col lg={6}>
               <h1 style={{fontFamily: 'Ramabhadra', color: '#D6D4D2', fontSize: '50px'}}>
                 <b>Experience</b>
               </h1>

@@ -11,7 +11,7 @@ function Projects() {
   return (
     <div>
       <div className="projects">
-        <Card style={{ width: "25rem", border: "none" }}>
+        <Card style={{ width: "25rem", border: "none", background: "none" }}>
           <div className="projImage">
             <Card.Img variant="top" src={Project1} />
           </div>
@@ -21,7 +21,7 @@ function Projects() {
                 style={{
                   fontFamily: "Lexend Deca",
                   fontSize: "30px",
-                  color: "#000",
+                  color: "#EFB90A",
                 }}
               >
                 Whatcha-Drinking
@@ -32,7 +32,7 @@ function Projects() {
                 style={{
                   fontFamily: "League Spartan",
                   fontSize: "20px",
-                  color: "#000",
+                  color: "#D6D4D2",
                 }}
               >
                 A web application that gives you insight on the different
@@ -74,7 +74,7 @@ function Projects() {
             </div>
           </Card.Body>
         </Card>
-        <Card style={{ width: "25rem", border: "none" }}>
+        <Card style={{ width: "25rem", border: "none", background: "none" }}>
           <div className="projImage">
             <Card.Img variant="top" src={Project2} />
           </div>
@@ -84,7 +84,7 @@ function Projects() {
                 style={{
                   fontFamily: "Lexend Deca",
                   fontSize: "30px",
-                  color: "#000",
+                  color: "#EFB90A",
                 }}
               >
                 Pathfinder
@@ -95,12 +95,12 @@ function Projects() {
                 style={{
                   fontFamily: "League Spartan",
                   fontSize: "20px",
-                  color: "#000",
+                  color: "#D6D4D2",
                 }}
               >
                 A single page application that helps the User find National
                 Parks in any state of the U.S. It utilizes an API derived from
-                the National Parks Association - which provides Images and
+                the National Parks Association - which provides images and
                 accomodations for each National Park/Landmark.
               </Card.Text>
             </div>
